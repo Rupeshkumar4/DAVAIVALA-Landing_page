@@ -1,0 +1,116 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkcyan);
+  width: 715px;
+  height: 634px;
+}
+.davaivala,
+.davaivala1 {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.davaivala {
+  top: 565px;
+  left: 0;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+.davaivala1 {
+  left: -90px;
+  color: var(--color-skyblue-200);
+}
+.davaivala1,
+.davaivala2,
+.davaivala3 {
+  top: 565px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+.davaivala2 {
+  position: absolute;
+  left: -180px;
+  color: var(--color-skyblue-300);
+  transform-origin: 0 0;
+}
+.davaivala3 {
+  left: -270px;
+  color: var(--color-skyblue-400);
+}
+.davaivala3,
+.davaivala4,
+.davaivalaText {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.davaivala4 {
+  top: 565px;
+  left: -360px;
+  text-transform: uppercase;
+  color: var(--color-skyblue-500);
+  transform: rotate(-90deg);
+}
+.davaivalaText {
+  top: 610px;
+  left: 117px;
+  width: 486px;
+  height: 565px;
+  transform: rotate(180deg);
+}
+.groupItem {
+  position: absolute;
+  top: 62px;
+  left: 357px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-turquoise);
+  box-shadow: -15px 15px 35px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+  width: 923px;
+  height: 510px;
+}
+.click {
+  color: var(--color-aqua);
+}
+.findTheNearestContainer {
+  position: absolute;
+  top: 123px;
+  left: 639px;
+  font-size: var(--font-size-45xl);
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 589px;
+  height: 367px;
+  color: var(--color-white);
+}
+.icon {
+  position: absolute;
+  top: 15px;
+  left: 84px;
+  width: 576px;
+  height: 576px;
+  object-fit: cover;
+}
+.connectingPatientsTo {
+  position: absolute;
+  top: 340px;
+  left: 660px;
+  font-size: var(--font-size-13xl);
+  line-height: 100%;
+  color: var(--color-aquamarine-100);
+  display: inline-block;
+  width: 508px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 1259px;
+  left: 60px;
+  width: 1280px;
+  height: 634px;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-skyblue-100);
+  font-family: var(--font-outfit);
+}

@@ -1,0 +1,96 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 589px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-darkcyan);
+  width: 715px;
+  height: 634px;
+}
+.davaivala,
+.davaivala1,
+.davaivala2,
+.davaivala3,
+.davaivala4 {
+  position: absolute;
+  top: 565px;
+  left: 0;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.davaivala1,
+.davaivala2,
+.davaivala3,
+.davaivala4 {
+  left: 90px;
+  color: var(--color-skyblue-200);
+}
+.davaivala2,
+.davaivala3,
+.davaivala4 {
+  left: 180px;
+  color: var(--color-skyblue-300);
+}
+.davaivala3,
+.davaivala4 {
+  left: 270px;
+  color: var(--color-skyblue-400);
+}
+.davaivala4 {
+  left: 360px;
+  color: var(--color-skyblue-500);
+}
+.davaivalaText {
+  position: absolute;
+  top: 26px;
+  left: 709px;
+  width: 486px;
+  height: 565px;
+  color: var(--color-skyblue-100);
+}
+.groupItem {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-turquoise);
+  box-shadow: -15px 15px 35px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+  width: 980px;
+  height: 510px;
+}
+.finder {
+  color: var(--color-aqua);
+}
+.davaiavalaPharmaciesContainer,
+.davaivalaIsPharmacies {
+  position: absolute;
+  line-height: 100%;
+  display: inline-block;
+}
+.davaiavalaPharmaciesContainer {
+  top: 99px;
+  left: 43px;
+  font-size: var(--font-size-45xl);
+  text-transform: capitalize;
+  width: 589px;
+  height: 367px;
+}
+.davaivalaIsPharmacies {
+  top: 239px;
+  left: 41px;
+  font-size: var(--font-size-13xl);
+  width: 803px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 2659px;
+  left: 77px;
+  width: 1304px;
+  height: 634px;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-white);
+  font-family: var(--font-outfit);
+}
